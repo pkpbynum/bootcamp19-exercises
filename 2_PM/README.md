@@ -33,7 +33,7 @@ You will create an account on the Google Maps API, initialize a Node.js reposito
 - In order to use environment variables, we need access to the environment file from JavaScript. This is handled by the `dotenv` library. Install the `dotenv` library (same command as above!) and add the following lines to the top of your config file:
 ```
 const dotenv = require('dotenv')
-dontenv.config()
+dotenv.config()
 ```
 - Once you've done that, run `cp sample.env .env` to set the current environment to the one provided in `sample.env`. You will now be able to access all environment variables through `process.env` (e.g. `process.env.ENV_VARIABLE`), and do exactly this to set a field in the config object to the API_KEY value.
 

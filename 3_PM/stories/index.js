@@ -2,6 +2,7 @@ import React from "react";
 import { storiesOf } from "@storybook/react";
 import { Button } from "@storybook/react/demo";
 import CircularPhoto from "../components/CircularPhoto/index";
+import App from "../components/App/index";
 
 storiesOf("Button", module).add("with text", () => (
   <Button>Hello Button</Button>
@@ -16,3 +17,7 @@ storiesOf("Circular Photo", module)
       radius="80"
     />
   ));
+
+storiesOf("App", module).add("App", () => (
+  <App />
+));

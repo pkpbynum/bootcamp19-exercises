@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html, body, nav {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    top: 0;
+    background: teal;
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+}
+.nav-link {
+    display: block;
+    width: 80px;
+    color: silver;
+    line-height: 40px;
+}
+.nav-link:hover {
+    color: white;
+}
+
+img {
+    width: 100vw;
+}
+
+table {
+    width: 100px;
+}
+
+th {
+    border: solid 1px black;
+}
+
+.contact {
+    width: 100px;
+}
+
+.center-wrapper {
+    width: 100vw;
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#welcome {
+    background-image: url(https://i2.wp.com/mrandmrsadventure.com/wp-content/uploads/2014/08/img_8927.jpg?ssl=1);
+    background-size: cover;
+    color: white;
+}

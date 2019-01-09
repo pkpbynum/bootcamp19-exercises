@@ -11,6 +11,8 @@ googleMapsClient.findPlace({ input: process.argv[2], inputtype: 'textquery' })
         const { candidates } = response.json
         const place_id = candidates[0].place_id
 
+
+        
         googleMapsClient.place({ placeid: place_id })
         .asPromise()
         .then((response) => {

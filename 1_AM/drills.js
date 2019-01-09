@@ -66,7 +66,7 @@ const shiftRight = (str, num) => {
 
 const announceDate = () => {
   // TODO - write a function which returns the current date in the following format:
-  // "Today's date is January 7th, 2016. It is eleven thirty-seven in the morning."
+  // "Today's date is January 7th, 2019. It is eleven thirty-seven in the morning."
   let date = new Date();
   let hour = date.getHours();
   let ampm = "am";
